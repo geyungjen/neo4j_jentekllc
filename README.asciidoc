@@ -4,15 +4,19 @@ We forked the branch 4.4 with tags 4.4.8. We have modified the branch for the su
 Following are the steps we build this repo:
 
 git clone https://github.com/geyungjen/neo4j_jentekllc.git
+
 cd neo4j_jentekllc
+
 mvn clean install -DskipTests 
 
 Once done, the built zip file is in Packaging/standalone/target
 
 neo4j GraphDB binary for Mac and Linux:
+
 neo4j-community-4.4.8-unix.tar.gz  
 
 neo4j GraphFB binary for Windows:
+
 neo4j-community-4.4.8-windows.zip
 
 
