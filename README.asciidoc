@@ -1,3 +1,21 @@
+= Modified Repo to ensure successful maven build = 
+We forked the branch 4.4 with tags 4.4.8. We have modified the branch for the success of build without getting dependency errors.
+
+Following are the steps we build this repo:
+
+git clone https://github.com/geyungjen/neo4j_jentekllc.git
+cd neo4j_jentekllc
+mvn clean install -DskipTests 
+
+Once done, the built zip file is in Packaging/standalone/target
+
+neo4j GraphDB binary for Mac and Linux:
+neo4j-community-4.4.8-unix.tar.gz  
+
+neo4j GraphFB binary for Windows:
+neo4j-community-4.4.8-windows.zip
+
+
 = Neo4j: Graphs for Everyone =
 
 https://neo4j.com[Neo4j] is the world's leading Graph Database. It is a high performance graph store with all the features expected of a mature and robust database, like a friendly query language and ACID transactions. The programmer works with a flexible network structure of nodes and relationships rather than static tables -- yet enjoys all the benefits of enterprise-quality database. For many applications, Neo4j offers orders of magnitude performance benefits compared to relational DBs.
