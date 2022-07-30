@@ -13,7 +13,7 @@ Once done, the built zip file is in Packaging/standalone/target
 === neo4j GraphDB binary for Mac and Linux: ===
   neo4j-community-4.4.8-unix.tar.gz  
 
-=== neo4j GraphFB binary for Windows: ===
+=== neo4j GraphDB binary for Windows: ===
   neo4j-community-4.4.8-windows.zip
 
 = Neo4j: Graphs for Everyone =
